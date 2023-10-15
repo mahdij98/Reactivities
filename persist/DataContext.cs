@@ -13,6 +13,7 @@ namespace persist
         {
         }
         public DbSet<Activity> Activities { get; set; }
+        public DbSet<Meeting> Meetinges { get; set; }
 
     }
 }
