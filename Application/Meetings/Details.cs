@@ -24,9 +24,10 @@ namespace Application.Meetings
 
             public async Task<Meeting> Handle(Query request, CancellationToken ccancellationToken)
             {
-                return await _context.Meetinges.FindAsync(request.Id)
-            }
+                return await _context.Meetinges.FindAsync(request.Id);
 
+
+            }
         }
     }
 }
