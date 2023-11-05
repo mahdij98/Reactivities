@@ -15,7 +15,6 @@ using Microsoft.EntityFrameworkCore;
 using persist;
 using MediatR;
 using Application.Activities;
-using AutoMapper;
 using Application.Core;
 
 
